@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-container {
+  height: 80vh;
+  width: 100%;
+  background: url("./imgs/header-bg-img.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-container {
+  position: absolute;
+  background-color: rgba(48,151,31,.85);
+  color: #f6f6f6;
+  height: 3.75rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.875rem;
+}
+
+.navbar-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-nav ul li {
+  margin: 0 1.25rem;
+  font-size: 1.5rem;
+  font-weight: regular;
+}
+
+.header-inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgba(55, 55, 55, 0.65);
+  min-height: 40vh;
+  width: 45vw;
+  text-align: center;
+  padding: 0.3125rem 9.375rem;
+  color: white;
+  border-radius: 1.25rem;
+}
+
+.header-inner-title {
+  font-weight: bold;
+  font-size: 2.125rem;
+  line-height: 1;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.header-inner-content {
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: #30971f;
+  outline: none;
+  border: none;
+  width: 12.5rem;
+  height: 3.125rem;
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.625rem;
+}
+
+/* Selling Points Styling Start */
+
+.selling-points-header {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-size: 1.375rem;
+  padding: 1.25rem 0;
+}
+
+.selling-points {
+  display: flex;
+  justify-content: center;
+  background-color: #f2f2f2;
+  padding: 0.625rem 0;
+}
+
+.selling-points-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  padding: 0.625rem 0;
+}
+
+.selling-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 18.75rem;
+  height: 18.75rem;
+  padding: 0 0.625rem;
+  text-align: center;
+}
+
+.selling-point-icon {
+  width: 35%;
+}
+
+/* Selling Points Styling End */
+
+/* Menu Options Styling Start */
+.menu-options-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-align: center;
+  background-color: #f2f2f2;
+  font-size: 1.375rem;
+  height: 9.375rem;
+  border-top: #dcdcde 0.0625rem solid;
+}
+
+
+.menu-options {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0.625rem 0px;
+}
+
+.menu-options-container {
+  display: flex;
+  width: 60vw;
+  justify-content: space-between;
+  height: 31.25rem;
+}
+
+.menu-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 33%;
+  text-align: center;
+  padding: 0.625rem 0.625rem;
+}
+
+.menu-option h3 {
+  color: #30971f;
+}
+
+.menu-option img {
+  border-radius: 0.625rem;
+  outline: #30971f 0.1875rem solid;
+}
+
+/* Menu Options Styling End */
+/* Plans Styling Start */
+
+.plans {
+  background-color: #30971f;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.875rem 0;
+  color: white;
+}
+
+.plans h2 {
+  font-size: 2rem;
+}
+
+.plans p {
+  margin-bottom: 1.25rem;
+  display: block;
+  width: 40%;
+  text-align: center;
+  font-size: 1.375rem;
+}
+
+.plans-container {
+  display: flex;
+  width: 55vw;
+  padding: 3rem 0;
+  background-color: white;
+  border-radius: 0.625rem;
+}
+
+.plans-container h3 {
+  color: #30971f;
+}
+
+.base-plans-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  border-right: #dcdcde 0.0625rem solid;
+}
+
+.plans-options-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.25rem 0;
+}
+
+.btn-plan-option {
+  height: 6.25rem;
+  width: 12.5rem;
+  margin: 0.625rem 1.25rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.625rem;
+}
+
+.selected {
+  outline: #30971f 0.1875rem solid;
+  font-weight: bold;
+}
+
+.customize-plans-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.customize-options-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem 0;
+}
+
+.meals-per-person-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem 0;
+}
+
+.btn-x-for-y {
+  width: 15.625rem;
+  height: 3.125rem;
+  margin-left: 0.625rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.total-number-of-meals {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0.625rem 0;
+}
+
+.btn-meals {
+  height: 3.125rem;
+  width: 7.5rem;
+  margin-left: 0.625rem;
+  border: none;
+  font-size: 0.875rem;
+  border-radius: 0.625rem;
+}
+
+.customize-calculation-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 50%;
+  color: black;
+}
+
+.customize-calculation-container h3 {
+  font-size: 1.125rem;
+}
+
+.customize-calculation-container p {
+  font-size: 1.18rem;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  justify-content: 
+  font-weight: bold;
+  font-size: 1.25rem;
+  width: 80%;
+}
+
+.price-per-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-per-box span {
+    font-weight: bold;
+}
+
+.price-per-meal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-per-meal span {
+    font-weight: bold;
+}
+
+.title {
+    color:  #30971f;
+}
+
+
+
+/* Plans Styling End */

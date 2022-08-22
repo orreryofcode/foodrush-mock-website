@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/81245feb4c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js" defer></script>
+    <title>FoodRush</title>
+  </head>
+  <body>
+    <!-- Header Section Start -->
+
+    <header class="header-container">
+      <div class="navbar-container">
+        <h1>FoodRush</h1>
+        <nav class="navbar-nav">
+          <ul>
+            <li>About</li>
+            <li>Plans</li>
+            <li>Sign-Up</li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-inner-container">
+        <div class="header-inner-title">
+          <h1>Long day at work?</h1>
+          <h1>Empty fridge at home?</h1>
+        </div>
+
+        <p class="header-inner-content">
+          <span class="highlight">You deserve better.</span> We take pride in
+          delivering healthy and delicious meals straight to your door for those
+          days when life thinks fast-food four times a week is fine.
+        </p>
+
+        <button class="btn-primary">View Plans</button>
+
+        <p class="offer">*Sign-up now and receive 20% off your first order!</p>
+      </div>
+    </header>
+
+    <!-- Header Section End -->
+
+    <!-- Selling Points Section Start -->
+    <div class="selling-points-header">
+      <h2>Why Pick FoodRush?</h2>
+    </div>
+
+    <section class="selling-points">
+      <div class="selling-points-container">
+        <div class="selling-point">
+          <h3>Locally Sourced</h3>
+          <img src="./imgs/svgs/carrot.svg" alt="" class="selling-point-icon" />
+
+          <p>
+            All of our ingredients are sourced from local farmers and are sure
+            to be of the highest quality.
+          </p>
+        </div>
+        <div class="selling-point">
+          <h3>Earth Friendly</h3>
+          <img
+            src="./imgs/svgs/recycle.svg"
+            alt=""
+            class="selling-point-icon"
+          />
+
+          <p>
+            We use minimal packaging and make sure to using biodegradable
+            materials whenever possible.
+          </p>
+        </div>
+        <div class="selling-point">
+          <h3>Save Time</h3>
+          <img src="./imgs/svgs/cart.svg" alt="" class="selling-point-icon" />
+
+          <p>
+            Save time by reducing the number of trips to the grocery store you
+            need to take.
+          </p>
+        </div>
+        <div class="selling-point">
+          <h3>Healthy Choices</h3>
+          <img src="./imgs/svgs/heart.svg" alt="" class="selling-point-icon" />
+
+          <p>
+            We make sure to provide healthy choices to keep you going at your
+            best at all times.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selling Points Section End -->
+
+    <!-- Menu Options Section Start -->
+    <div class="menu-options-header">
+      <h2>Be as picky as you want.</h2>
+      <p>
+        Choose from a wide variety of different styles of food. We're sure to
+        have something on the menu just for you.
+      </p>
+    </div>
+
+    <section class="menu-options">
+      <div class="menu-options-container">
+        <div class="menu-option">
+          <h3>High Protein</h3>
+          <img src="./imgs/protein.jpg" alt="" />
+          <p>
+            Get all the protein you need to stay full and maximize your effort
+            in the gym.
+          </p>
+        </div>
+        <div class="menu-option">
+          <h3>Varied Cuisine</h3>
+          <img src="./imgs/cuisine.jpg" alt="" />
+          <p>
+            Want to try something new? We have plenty of choices if you feel
+            like giving your taste buds a mini-vacation.
+          </p>
+        </div>
+        <div class="menu-option">
+          <h3>Vegetarian/Vegan Friendly</h3>
+          <img src="./imgs/veggie.jpg" alt="" />
+          <p>
+            All of our plans feature an option to substitute your meals for a
+            Vegetarian or Vegan option.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Options Section End -->
+
+    <!-- Plans Section Start -->
+    <section class="plans">
+      <h2>Our Plans</h2>
+      <p>
+        We offer a multitude of flexible options to fit your palate and your
+        budget. Choose an option to start and then select from all of our
+        recipes once you submit your request.
+      </p>
+      <div class="plans-container">
+        <div class="base-plans-container">
+          <h3>Base Plan</h3>
+          <div class="plans-options-container">
+            <button class="btn-plan-option selected">High Protein</button>
+            <button class="btn-plan-option">Vegetarian</button>
+            <button class="btn-plan-option">Vegan</button>
+            <button class="btn-plan-option">Quick & Easy</button>
+            <button class="btn-plan-option">Low Carb</button>
+            <button class="btn-plan-option">Low Fat</button>
+          </div>
+        </div>
+        <div class="customize-plans-container">
+          <h3>Customize</h3>
+          <div class="customize-options-container">
+            <div class="meals-per-person-container">
+              <button class="btn-x-for-y selected">2 people</button>
+              <button class="btn-x-for-y">4 people</button>
+            </div>
+            <div class="total-number-of-meals">
+              <button class="btn-meals selected">2 recipes</button>
+              <button class="btn-meals">3 recipes</button>
+              <button class="btn-meals">4 recipes</button>
+              <button class="btn-meals">5 recipes</button>
+            </div>
+          </div>
+
+          <div class="customize-calculation-container">
+            <h3>Base Plan Option</h3>
+            <p>3 meals for 2 people per week.</p>
+
+            <div class="price">
+              <div class="price-per-box">
+                <span class="title">Total Price:</span> <span>$60.00</span>
+              </div>
+
+              <div class="price-per-meal">
+                <span class="title">Price Per Meal:</span> <span>$9.99</span>
+              </div>
+            </div>
+            <button class="btn-primary">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Plans Section End -->
+  </body>
+</html>
