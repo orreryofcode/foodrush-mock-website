@@ -235,6 +235,16 @@
   font-weight: bold;
 }
 
+.people-selected {
+  outline: #30971f 0.1875rem solid;
+  font-weight: bold;
+}
+
+.recipes-selected {
+  outline: #30971f 0.1875rem solid;
+  font-weight: bold;
+}
+
 .customize-plans-container {
   display: flex;
   flex-direction: column;
